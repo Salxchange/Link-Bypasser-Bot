@@ -126,8 +126,7 @@ def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_
                         InlineKeyboardButton(" Support Group", url="https://t.me/Rokubotz")
                     ]
                 ]
-            )
-        ),         
+            ),       
     reply_to_message_id=message.id)
 
 
