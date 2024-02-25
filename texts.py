@@ -1,4 +1,4 @@
-  HELP_TEXT = """<b>
+HELP_TEXT = """<b>
 🤖 𝖬𝗒 𝗇𝖺𝗆𝖾: <a href=http://t.me/FZXFileStreamBot>𝖥𝗂𝗅𝖾 𝖲𝗍𝗋𝖾𝖺𝗆 𝖲𝗍𝗈𝗋𝖾</a>
 📚 𝖫𝗂𝖻𝗋𝖺𝗋𝗒: <a href=https://github.com/pyrogram>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</a>
 🚀 𝖲𝖾𝗋𝗏𝖾𝗋 : <a href=https://www.Heroku.com>Heroku</a>
