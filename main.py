@@ -117,9 +117,9 @@ def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_
                         InlineKeyboardButton("BotsList Channel", url="https://t.me/Rokubotz")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                        InlineKeyboardButton("", url="https://t.me/Rokubotz"),
+                        InlineKeyboardButton("", url="https://t.me/Rokubotz"),
+                        InlineKeyboardButton("", url="https://t.me/Rokubotz")
                     ],
                     [
                         InlineKeyboardButton("Bots Channel", url="https://t.me/Rokubotz"),
