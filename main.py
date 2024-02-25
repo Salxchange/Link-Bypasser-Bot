@@ -110,11 +110,11 @@ def loopthread(message,otherss=False):
 # start command
 @app.on_message(filters.command(["start"]))
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
-    app.send_message(message.chat.id, f"__👋 Hi **{message.from_user.mention}**, i am Link Bypasser Bot, just send me any supported links and i will you get you results.\nCheckout /help to Read More__",
+    app.send_message(message.chat.id, f"__👋 Hi **{message.from_user.mention}**, i am a Terabox Link Bypass Bot, just send me any terabox links and i will help you bypass it\n i also support bypassing some shortlinks__",
     reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/Rokubotz")
+                        InlineKeyboardButton("Supported Sites", url="http://telegra.ph/Supported-Sites-02-25")
                     ],
                     [
                         InlineKeyboardButton("", url="https://t.me/Rokubotz"),
@@ -123,7 +123,7 @@ def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_
                     ],
                     [
                         InlineKeyboardButton("Bots Channel", url="https://t.me/Rokubotz"),
-                        InlineKeyboardButton(" Support Group", url="https://t.me/Rokubotz")
+                        InlineKeyboardButton(" Support Group", url="https://t.me/Team_Roku")
                     ]
                 ]
             ),       
