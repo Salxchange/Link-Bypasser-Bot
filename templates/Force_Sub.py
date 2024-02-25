@@ -1,7 +1,7 @@
 from pyrogram import Client, filters, enums 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import UserNotParticipant
-from FZBypass import Config
+import config
 
 async def not_subscribed(_, client, message):
     if not Config.FORCE_SUB:
